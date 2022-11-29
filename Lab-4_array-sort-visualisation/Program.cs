@@ -5,7 +5,7 @@ namespace Lab_4_array_sort_visualisation {
     class Program {
         static void Main(string[] args) {
             try {
-                BubbleSort sort = new BubbleSort(new[] {1, 2, 5, 2, 5, 7, 98, 2, 4, 12}, 1000);
+                Algorithm sort = new CocktailSort(new[] {1, 2, 5, 2, 5, 7, 98, 2, 4, 12}, 500);
                 sort.Sort();
             }
             catch (Exception e) {

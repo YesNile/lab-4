@@ -41,6 +41,7 @@ namespace Lab_4_array_sort_visualisation.utils {
                     }
                 }
             }
+
             Console.Write("]");
             if (swap) {
                 Console.Write(
@@ -54,19 +55,6 @@ namespace Lab_4_array_sort_visualisation.utils {
             Console.WriteLine();
             StringBuilder sb = new StringBuilder("[ ");
             sb.Append(string.Join(", ", _data)).Append(" ]");
-            // Console.Write("[ ");
-            // for (int i = 0; i < data.Length; i++)
-            // {
-            //     if (data.Length - 1 == i)
-            //     {
-            //         Console.Write(data[i] + " ");
-            //     }
-            //     else
-            //     {
-            //         Console.Write(data[i] + ", ");
-            //     }
-            // }
-            // Console.Write("]");
             Console.Write(sb.ToString());
             Console.WriteLine();
         }

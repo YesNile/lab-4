@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading;
+using System.Threading.Channels;
 
 namespace Lab_4_array_sort_visualisation.algorithms {
     public class BubbleSort : Algorithm {
@@ -18,6 +19,8 @@ namespace Lab_4_array_sort_visualisation.algorithms {
                     }
                 }
             }
+
+            Console.WriteLine();
             Console.WriteLine("Отсортированные данные:");
             Logger.ShowData();
         }
