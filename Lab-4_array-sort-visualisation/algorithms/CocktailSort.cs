@@ -8,17 +8,18 @@ namespace Lab_4_array_sort_visualisation.algorithms {
             int left = 0,
                 right = data.Length - 1;
             Console.WriteLine("Изначальные данные:");
-            Logger.ShowData();
+            Logger.ShowData(data);
+            Console.WriteLine("Сортировка: ");
 
             while (left < right) {
                 for (int i = left; i < right; i++) {
                     Thread.Sleep(SortDelay);
                     if (data[i] > data[i + 1]) {
                         Swap(data, i, i + 1);
-                        Logger.Log(i, i + 1, true);
+                        Logger.Log(data, i, i + 1, true);
                     }
                     else {
-                        Logger.Log(i, i + 1);
+                        Logger.Log(data, i, i + 1);
                     }
                 }
 
@@ -28,10 +29,10 @@ namespace Lab_4_array_sort_visualisation.algorithms {
                     Thread.Sleep(SortDelay);
                     if (data[i - 1] > data[i]) {
                         Swap(data, i - 1, i);
-                        Logger.Log(i - 1, i, true);
+                        Logger.Log(data, i - 1, i, true);
                     }
                     else {
-                        Logger.Log(i - 1, i);
+                        Logger.Log(data, i - 1, i);
                     }
                 }
 
@@ -40,7 +41,7 @@ namespace Lab_4_array_sort_visualisation.algorithms {
 
             Console.WriteLine();
             Console.WriteLine("Отсортированные данные:");
-            Logger.ShowData();
+            Logger.ShowData(data);
         }
 
         /* Поменять элементы местами */

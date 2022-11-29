@@ -6,7 +6,7 @@ namespace Lab_4_array_sort_visualisation.algorithms {
         protected int[] Data;
         protected int SortDelay;
         protected Algorithm(int[] data, int sortDelay) {
-            Logger = new Logger(data);
+            Logger = new Logger();
             Data = data;
             SortDelay = sortDelay;
         }

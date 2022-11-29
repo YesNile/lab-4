@@ -1,60 +1,63 @@
 ﻿using System;
+using System.Threading;
 
 namespace Lab_4_array_sort_visualisation.algorithms {
     public class QuickSort : Algorithm {
-        public int[] Calculate(int[] Data) {
-            if (Data.Length <= 1) return Data;
-            var randomNum = Data[new Random().Next(0, Data.Length)];
+        private void swap(int[] arr, int i, int j) {
+            (arr[i], arr[j]) = (arr[j], arr[i]);
+        }
 
-            int bigCount = 0;
-            int lowCount = 0;
-            int equalCount = 0;
+        private int partition(int[] arr, int low, int high) {
+            int pivot = arr[high];
+            int i = low - 1;
 
-            foreach (var element in Data) {
-                if (element > randomNum)
-                    bigCount++;
-                else if (element < randomNum)
-                    lowCount++;
-                else
-                    equalCount++;
+            for (int j = low; j <= high - 1; j++) {
+                Thread.Sleep(SortDelay);
+                if (arr[j] < pivot) {
+                    i++;
+                    swap(arr, i, j);
+                    if (i != j) {
+                        Logger.Log(Data, i, j, true);
+                    }
+                    else {
+                        Logger.Log(Data, i, j);
+                    }
+                }
+                else {
+                    Logger.Log(Data, i, j);
+                }
             }
 
-            int[] bigElements = new int[bigCount];
-            int[] lowElements = new int[lowCount];
-            int[] equalElements = new int[equalCount];
-
-            int lowindex = 0;
-            int bigindex = 0;
-            int equalindex = 0;
-
-            for (int i = 0; i < Data.Length; i++) {
-                var element = Data[i];
-                if (element > randomNum)
-                    bigElements[bigindex++] = element;
-                else if (element < randomNum)
-                    lowElements[lowindex++] = element;
-                else
-                    equalElements[equalindex++] = element;
+            swap(arr, i + 1, high);
+            if (i + 1 != high) {
+                Logger.Log(Data, i + 1, high, true);
+            }
+            else {
+                Logger.Log(Data, i + 1, high);
             }
 
-            Calculate(lowElements);
-            Calculate(bigElements);
+            return i + 1;
+        }
 
-            for (int i = 0; i < Data.Length; i++) {
-                if (i < lowElements.Length)
-                    Data[i] = lowElements[i];
-                else if (i - lowElements.Length < equalElements.Length)
-                    Data[i] = equalElements[i - lowElements.Length];
-                else
-                    Data[i] = bigElements[i - lowElements.Length - equalElements.Length];
+        private void Quick_Sort(int[] arr, int low, int high) {
+            if (low < high) {
+                int pi = partition(arr, low, high);
+
+                Quick_Sort(arr, low, pi - 1);
+                Quick_Sort(arr, pi + 1, high);
             }
-
-            return Data;
         }
 
         public QuickSort(int[] data, int delay) : base(data, delay) { }
+
         public override void Sort() {
-            Calculate(Data);
+            Console.WriteLine("Изначальные данные:");
+            Logger.ShowData(Data);
+            Console.WriteLine("Сортировка: ");
+            Quick_Sort(Data, 0, Data.Length - 1);
+            Console.WriteLine();
+            Console.WriteLine("Отсортированные данные:");
+            Logger.ShowData(Data);
         }
     }
 }
