@@ -3,11 +3,13 @@ using System.Threading;
 
 namespace Lab_4_array_sort_visualisation.algorithms {
     public class QuickSort : Algorithm {
+        public QuickSort() { }
+
         private void swap(int[] arr, int i, int j) {
             (arr[i], arr[j]) = (arr[j], arr[i]);
         }
 
-        private int partition(int[] arr, int low, int high) {
+        private int Partition(int[] arr, int low, int high) {
             int pivot = arr[high];
             int i = low - 1;
 
@@ -41,7 +43,7 @@ namespace Lab_4_array_sort_visualisation.algorithms {
 
         private void Quick_Sort(int[] arr, int low, int high) {
             if (low < high) {
-                int pi = partition(arr, low, high);
+                int pi = Partition(arr, low, high);
 
                 Quick_Sort(arr, low, pi - 1);
                 Quick_Sort(arr, pi + 1, high);

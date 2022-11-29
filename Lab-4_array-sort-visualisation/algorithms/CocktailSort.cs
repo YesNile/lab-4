@@ -4,6 +4,8 @@ using System.Threading;
 namespace Lab_4_array_sort_visualisation.algorithms {
     public class CocktailSort : Algorithm {
         /* Шейкер-сортировка */
+        public CocktailSort() { }
+
         private void ShakerSort(int[] data) {
             int left = 0,
                 right = data.Length - 1;

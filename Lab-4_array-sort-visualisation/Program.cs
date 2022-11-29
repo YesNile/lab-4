@@ -1,18 +1,11 @@
-﻿using System;
-using Lab_4_array_sort_visualisation.algorithms;
+﻿using Lab_4_array_sort_visualisation.menu;
+using Lab_4_array_sort_visualisation.menu.menus;
 
 namespace Lab_4_array_sort_visualisation {
     class Program {
         static void Main(string[] args) {
-            try {
-                Algorithm sort = new QuickSort(new[] {1, 2, 5, 2, 5, 7, 98, 2, 4, 12}, 500);
-                sort.Sort();
-            }
-            catch (Exception e) {
-                Console.WriteLine(e);
-            }
-
-            Console.ReadLine();
+            Menu menu = new MainMenu();
+            menu.Start();
         }
     }
 }

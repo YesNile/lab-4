@@ -26,6 +26,7 @@ namespace Lab_4_array_sort_visualisation.algorithms {
         }
 
         public BubbleSort(int[] data, int delay) : base(data, delay) { }
+        public BubbleSort() { }
 
         public override void Sort() {
             Run(Data);
