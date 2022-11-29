@@ -2,7 +2,7 @@
 using System.Threading;
 
 namespace Lab_4_array_sort_visualisation.algorithms {
-    public class CocktailSort : Algorithm {
+    public class CocktailSort : Algorithm<int> {
         /* Шейкер-сортировка */
         public CocktailSort() { }
 

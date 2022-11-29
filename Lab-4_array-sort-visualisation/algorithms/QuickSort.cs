@@ -2,7 +2,7 @@
 using System.Threading;
 
 namespace Lab_4_array_sort_visualisation.algorithms {
-    public class QuickSort : Algorithm {
+    public class QuickSort : Algorithm<int> {
         public QuickSort() { }
 
         private void swap(int[] arr, int i, int j) {

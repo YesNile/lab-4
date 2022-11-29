@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddc6578c-a7fa-4001-8089-c24c2a59f15e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/menus/AlgorithmMenu.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/menus/BubbleSortMenu.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/menus/CocktailSortMenu.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/menus/QuickSortMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/algorithms/ABCSort.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/algorithms/ShakerSort.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/menus/ABCSortMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/menus/NumSortMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/menus/ShakerSortMenu.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/menus/StringSortMenu.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab-4_array-sort-visualisation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab-4_array-sort-visualisation/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/algorithms/Algorithm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/algorithms/Algorithm.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/algorithms/BubbleSort.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/algorithms/BubbleSort.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/algorithms/CocktailSort.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/algorithms/CocktailSort.cs" afterDir="false" />
@@ -18,7 +19,7 @@
       <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/bin/Debug/net5.0/Lab-4_array-sort-visualisation.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/bin/Debug/net5.0/Lab-4_array-sort-visualisation.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/bin/Debug/net5.0/Lab-4_array-sort-visualisation.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/bin/Debug/net5.0/Lab-4_array-sort-visualisation.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/bin/Debug/net5.0/ref/Lab-4_array-sort-visualisation.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/bin/Debug/net5.0/ref/Lab-4_array-sort-visualisation.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/ExitMenuItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/ExitMenuItem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/menus/AlgorithmMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/menus/AlgorithmMenu.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/menus/MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/menus/MainMenu.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/Debug/net5.0/Lab-4_array-sort-visualisation.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/Debug/net5.0/Lab-4_array-sort-visualisation.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/Debug/net5.0/Lab-4_array-sort-visualisation.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/Debug/net5.0/Lab-4_array-sort-visualisation.dll" afterDir="false" />
@@ -85,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669733704415</updated>
-      <workItem from="1669733723130" duration="10423000" />
+      <workItem from="1669733723130" duration="11323000" />
     </task>
     <servers />
   </component>
@@ -106,24 +107,5 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/menus/AlgorithmMenu.cs</url>
-          <line>20</line>
-          <properties documentPath="D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\menu\menus\AlgorithmMenu.cs" initialLine="20" containingFunctionPresentation="method 'Execute'">
-            <startOffsets>
-              <option value="726" />
-            </startOffsets>
-            <endOffsets>
-              <option value="761" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

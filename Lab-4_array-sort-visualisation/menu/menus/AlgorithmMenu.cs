@@ -5,9 +5,10 @@ using Lab_4_array_sort_visualisation.menu.utils;
 
 namespace Lab_4_array_sort_visualisation.menu.menus {
     public class AlgorithmMenu : MenuItem {
-        private readonly Algorithm _algorithm;
+        private readonly Algorithm<int> _algorithm;
 
-        protected AlgorithmMenu(Algorithm algorithm, string title, bool isSelected = false) : base(title, isSelected) {
+        protected AlgorithmMenu(Algorithm<int> algorithm, string title, bool isSelected = false) : base(title,
+            isSelected) {
             _algorithm = algorithm;
         }
 

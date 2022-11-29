@@ -2,7 +2,7 @@
 using System.Threading;
 
 namespace Lab_4_array_sort_visualisation.algorithms {
-    public class BubbleSort : Algorithm {
+    public class BubbleSort : Algorithm<int> {
         private void Run(int[] array) {
             Console.WriteLine("Изначальные данные:");
             Logger.ShowData(array);
