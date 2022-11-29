@@ -1,0 +1,16 @@
+D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\bin\Debug\net5.0\Lab-4_array-sort-visualisation.exe
+D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\bin\Debug\net5.0\Lab-4_array-sort-visualisation.deps.json
+D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\bin\Debug\net5.0\Lab-4_array-sort-visualisation.runtimeconfig.json
+D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\bin\Debug\net5.0\Lab-4_array-sort-visualisation.runtimeconfig.dev.json
+D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\bin\Debug\net5.0\Lab-4_array-sort-visualisation.dll
+D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\bin\Debug\net5.0\ref\Lab-4_array-sort-visualisation.dll
+D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\bin\Debug\net5.0\Lab-4_array-sort-visualisation.pdb
+D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\obj\Debug\net5.0\Lab-4_array-sort-visualisation.csproj.AssemblyReference.cache
+D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\obj\Debug\net5.0\Lab-4_array-sort-visualisation.GeneratedMSBuildEditorConfig.editorconfig
+D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\obj\Debug\net5.0\Lab-4_array-sort-visualisation.AssemblyInfoInputs.cache
+D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\obj\Debug\net5.0\Lab-4_array-sort-visualisation.AssemblyInfo.cs
+D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\obj\Debug\net5.0\Lab-4_array-sort-visualisation.csproj.CoreCompileInputs.cache
+D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\obj\Debug\net5.0\Lab-4_array-sort-visualisation.dll
+D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\obj\Debug\net5.0\ref\Lab-4_array-sort-visualisation.dll
+D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\obj\Debug\net5.0\Lab-4_array-sort-visualisation.pdb
+D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\obj\Debug\net5.0\Lab-4_array-sort-visualisation.genruntimeconfig.cache
