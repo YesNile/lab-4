@@ -30,7 +30,7 @@ namespace Lab_4_array_sort_visualisation.algorithms {
         }
 
         private static bool CompareString(string s1, string s2) {
-            Console.WriteLine($"Сравнение слов {s1} и {s2}");
+            //Console.WriteLine($"Сравнение слов {s1} и {s2}");         //комментить только для тестов,для работы в консоли раскоментить
             var min = Math.Min(s1.Length, s2.Length);
             for (int i = 0; i < min; i++) {
                 if (s1[i] == s2[i]) {

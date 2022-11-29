@@ -14,3 +14,42 @@ D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_arr
 D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\obj\Debug\net5.0\ref\Lab-4_array-sort-visualisation.dll
 D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\obj\Debug\net5.0\Lab-4_array-sort-visualisation.pdb
 D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\obj\Debug\net5.0\Lab-4_array-sort-visualisation.genruntimeconfig.cache
+D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\bin\Debug\net5.0\Lab-4_array-sort-visualisation.exe
+D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\bin\Debug\net5.0\Lab-4_array-sort-visualisation.deps.json
+D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\bin\Debug\net5.0\Lab-4_array-sort-visualisation.runtimeconfig.json
+D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\bin\Debug\net5.0\Lab-4_array-sort-visualisation.runtimeconfig.dev.json
+D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\bin\Debug\net5.0\Lab-4_array-sort-visualisation.dll
+D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\bin\Debug\net5.0\Lab-4_array-sort-visualisation.pdb
+D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\obj\Debug\net5.0\Lab-4_array-sort-visualisation.csproj.AssemblyReference.cache
+D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\obj\Debug\net5.0\Lab-4_array-sort-visualisation.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\obj\Debug\net5.0\Lab-4_array-sort-visualisation.AssemblyInfoInputs.cache
+D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\obj\Debug\net5.0\Lab-4_array-sort-visualisation.AssemblyInfo.cs
+D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\obj\Debug\net5.0\Lab-4_array-sort-visualisation.csproj.CoreCompileInputs.cache
+D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\obj\Debug\net5.0\Lab-4_array-sort-visualisation.dll
+D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\obj\Debug\net5.0\refint\Lab-4_array-sort-visualisation.dll
+D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\obj\Debug\net5.0\Lab-4_array-sort-visualisation.pdb
+D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\obj\Debug\net5.0\Lab-4_array-sort-visualisation.genruntimeconfig.cache
+D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\obj\Debug\net5.0\ref\Lab-4_array-sort-visualisation.dll
+D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\bin\Debug\net5.0\EPPlus.dll
+D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\bin\Debug\net5.0\EPPlus.Interfaces.dll
+D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\bin\Debug\net5.0\EPPlus.System.Drawing.dll
+D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\bin\Debug\net5.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Json.dll
+D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\bin\Debug\net5.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\bin\Debug\net5.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\bin\Debug\net5.0\OfficeOpenXml.Core.ExcelPackage.dll
+D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\bin\Debug\net5.0\OfficeOpenXml.Extends.dll
+D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\bin\Debug\net5.0\System.Drawing.Common.dll
+D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\bin\Debug\net5.0\System.IO.Packaging.dll
+D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\bin\Debug\net5.0\System.Security.Cryptography.Pkcs.dll
+D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll
+D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\obj\Debug\net5.0\Lab-4_array-sort-visualisation.csproj.CopyComplete

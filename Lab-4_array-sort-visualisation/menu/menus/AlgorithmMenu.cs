@@ -13,8 +13,8 @@ namespace Lab_4_array_sort_visualisation.menu.menus {
         }
 
         public override void Execute() {
-            ConsoleUtil.ClearScreen();
             do {
+                ConsoleUtil.ClearScreen();
                 Console.WriteLine($"[ {Title.ToUpper()} ]");
                 var values = InputValues();
                 var delay = InputDelayValue();
