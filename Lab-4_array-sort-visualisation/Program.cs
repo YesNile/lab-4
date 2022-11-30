@@ -10,10 +10,10 @@ using Lab_4_array_sort_visualisation.menu.menus;
 namespace Lab_4_array_sort_visualisation {
     class Program {
         static void Main(string[] args) {
-            // Menu menu = new MainMenu();                  //Запуск меню с работой в программе
-            // menu.Start();
+            Menu menu = new MainMenu();                  //Запуск меню с работой в программе
+            menu.Start();
            // TestTextSort(x=>ABCSort.Sort(x),"ABCSort",1);             //тест ABCSort слов
-            TestTextSort(x=>ShakerSort.Sort(x),"ShakerSort",1);                 //тест ShakerSort слов
+            //TestTextSort(x=>ShakerSort.Sort(x),"ShakerSort",1);                 //тест ShakerSort слов
         }
         private static void TestTextSort(Func<List<string>, ICollection<string>> func, string name, int iterCount)
         {

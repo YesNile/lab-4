@@ -38,7 +38,8 @@ namespace Lab_4_array_sort_visualisation.utils {
             }
 
             Console.Write("]");
-            if (swap) {
+            if (swap) 
+            {
                 Console.Write(
                     $" - меняем элемент {data[firstValue]} под индексом {firstValue} и элемент {data[secondValue]} под индексом {secondValue}");
             }
@@ -46,7 +47,8 @@ namespace Lab_4_array_sort_visualisation.utils {
             Console.WriteLine();
         }
 
-        public void ShowData(int[] data) {
+        public void ShowData(int[] data) 
+        {
             Console.WriteLine();
             StringBuilder sb = new StringBuilder("[ ");
             sb.Append(string.Join(" ", data)).Append(" ]");

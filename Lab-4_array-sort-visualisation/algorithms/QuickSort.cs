@@ -5,36 +5,45 @@ namespace Lab_4_array_sort_visualisation.algorithms {
     public class QuickSort : Algorithm<int> {
         public QuickSort() { }
 
-        private void swap(int[] arr, int i, int j) {
+        private void swap(int[] arr, int i, int j) 
+        {
             (arr[i], arr[j]) = (arr[j], arr[i]);
         }
 
-        private int Partition(int[] arr, int low, int high) {
+        private int Partition(int[] arr, int low, int high) 
+        {
             int pivot = arr[high];
             int i = low - 1;
 
-            for (int j = low; j <= high - 1; j++) {
+            for (int j = low; j <= high - 1; j++) 
+            {
                 Thread.Sleep(SortDelay);
-                if (arr[j] < pivot) {
+                if (arr[j] < pivot) 
+                {
                     i++;
                     swap(arr, i, j);
-                    if (i != j) {
+                    if (i != j) 
+                    {
                         Logger.Log(Data, i, j, true);
                     }
-                    else {
+                    else 
+                    {
                         Logger.Log(Data, i, j);
                     }
                 }
-                else {
+                else 
+                {
                     Logger.Log(Data, i, j);
                 }
             }
 
             swap(arr, i + 1, high);
-            if (i + 1 != high) {
+            if (i + 1 != high) 
+            {
                 Logger.Log(Data, i + 1, high, true);
             }
-            else {
+            else 
+            {
                 Logger.Log(Data, i + 1, high);
             }
 

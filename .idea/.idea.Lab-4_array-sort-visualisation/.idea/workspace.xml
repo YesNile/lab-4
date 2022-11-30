@@ -5,47 +5,20 @@
     <projectFile>Task-2/Task-2.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddc6578c-a7fa-4001-8089-c24c2a59f15e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Lab-4_array-sort-visualisation/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Lab-4_array-sort-visualisation/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Lab-4_array-sort-visualisation/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/Tester/DataTypes/Matrix.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/Tester/DataTypes/Vector.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/Tester/MemoryTester.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/Tester/StepTester.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/Tester/TimeTester.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/Tester/classes/DoubleExtension.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/Tester/classes/SaveManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/Tester/classes/TestResult.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/Tester/interfaces/IStepTester.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/Tester/interfaces/ITester.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/Tester/interfaces/ITimeTester.cs" afterDir="false" />
+    <list default="true" id="ddc6578c-a7fa-4001-8089-c24c2a59f15e" name="Changes" comment="idk">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab-4_array-sort-visualisation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab-4_array-sort-visualisation/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/Lab-4_array-sort-visualisation.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/Lab-4_array-sort-visualisation.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/algorithms/ABCSort.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/algorithms/ABCSort.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/algorithms/BubbleSort.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/algorithms/BubbleSort.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/algorithms/CocktailSort.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/algorithms/CocktailSort.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/algorithms/QuickSort.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/algorithms/QuickSort.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/algorithms/ShakerSort.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/algorithms/ShakerSort.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/bin/Debug/net5.0/Lab-4_array-sort-visualisation.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/bin/Debug/net5.0/Lab-4_array-sort-visualisation.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/bin/Debug/net5.0/Lab-4_array-sort-visualisation.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/bin/Debug/net5.0/Lab-4_array-sort-visualisation.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/bin/Debug/net5.0/Lab-4_array-sort-visualisation.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/bin/Debug/net5.0/Lab-4_array-sort-visualisation.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/bin/Debug/net5.0/Lab-4_array-sort-visualisation.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/bin/Debug/net5.0/Lab-4_array-sort-visualisation.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/bin/Debug/net5.0/Lab-4_array-sort-visualisation.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/bin/Debug/net5.0/Lab-4_array-sort-visualisation.runtimeconfig.dev.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/menus/AlgorithmMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/menus/AlgorithmMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/Debug/net5.0/Lab-4_array-sort-visualisation.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/Debug/net5.0/Lab-4_array-sort-visualisation.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/Debug/net5.0/Lab-4_array-sort-visualisation.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/Debug/net5.0/Lab-4_array-sort-visualisation.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/Debug/net5.0/Lab-4_array-sort-visualisation.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/Debug/net5.0/Lab-4_array-sort-visualisation.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/Debug/net5.0/Lab-4_array-sort-visualisation.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/Debug/net5.0/Lab-4_array-sort-visualisation.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/Debug/net5.0/Lab-4_array-sort-visualisation.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/Debug/net5.0/Lab-4_array-sort-visualisation.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/Debug/net5.0/Lab-4_array-sort-visualisation.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/Debug/net5.0/Lab-4_array-sort-visualisation.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/Debug/net5.0/Lab-4_array-sort-visualisation.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/Debug/net5.0/Lab-4_array-sort-visualisation.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/Debug/net5.0/Lab-4_array-sort-visualisation.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/Debug/net5.0/Lab-4_array-sort-visualisation.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/Debug/net5.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/Debug/net5.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/Debug/net5.0/ref/Lab-4_array-sort-visualisation.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/Debug/net5.0/ref/Lab-4_array-sort-visualisation.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/Lab-4_array-sort-visualisation.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/Lab-4_array-sort-visualisation.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/Lab-4_array-sort-visualisation.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/Lab-4_array-sort-visualisation.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/utils/Logger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/utils/Logger.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,8 +105,16 @@
       <option name="presentableId" value="Default" />
       <updated>1669733704415</updated>
       <workItem from="1669733723130" duration="11323000" />
-      <workItem from="1669749328363" duration="4261000" />
+      <workItem from="1669749328363" duration="8943000" />
     </task>
+    <task id="LOCAL-00001" summary="idk">
+      <created>1669753685824</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669753685824</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,5 +137,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="idk" />
+    <option name="LAST_COMMIT_MESSAGE" value="idk" />
   </component>
 </project>
