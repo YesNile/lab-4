@@ -6,8 +6,4 @@
         <RootNamespace>Lab_4_array_sort_visualisation</RootNamespace>
     </PropertyGroup>
 
-    <ItemGroup>
-      <Folder Include="task 2" />
-    </ItemGroup>
-
 </Project>
