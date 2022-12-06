@@ -209,7 +209,7 @@ namespace Lab_4_array_sort_visualisation.task_2
         {
             Console.WriteLine();
 
-            Console.WriteLine("файл " + path + ":");
+            Console.WriteLine($"[ {path} ]");
             foreach (var line in File.ReadAllLines(path))
             {
                 Console.WriteLine(line);
