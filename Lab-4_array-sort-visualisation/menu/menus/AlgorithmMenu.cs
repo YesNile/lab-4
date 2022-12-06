@@ -3,17 +3,22 @@ using System.Collections.Generic;
 using Lab_4_array_sort_visualisation.algorithms;
 using Lab_4_array_sort_visualisation.menu.utils;
 
-namespace Lab_4_array_sort_visualisation.menu.menus {
-    public class AlgorithmMenu : MenuItem {
+namespace Lab_4_array_sort_visualisation.menu.menus
+{
+    public class AlgorithmMenu : MenuItem
+    {
         private readonly Algorithm<int> _algorithm;
 
         protected AlgorithmMenu(Algorithm<int> algorithm, string title, bool isSelected = false) : base(title,
-            isSelected) {
+            isSelected)
+        {
             _algorithm = algorithm;
         }
 
-        public override void Execute() {
-            do {
+        public override void Execute()
+        {
+            do
+            {
                 ConsoleUtil.ClearScreen();
                 Console.WriteLine($"[ {Title.ToUpper()} ]");
                 var values = InputValues();
@@ -25,19 +30,25 @@ namespace Lab_4_array_sort_visualisation.menu.menus {
             } while (ConsoleUtil.Continue());
         }
 
-        private List<int> InputValues() {
-            while (true) {
-                try {
+        private List<int> InputValues()
+        {
+            while (true)
+            {
+                try
+                {
                     Console.WriteLine("Введите через пробел последовательность цифр для сортировки: ");
                     var listValues = Console.ReadLine();
-                    if (string.IsNullOrEmpty(listValues)) {
+                    if (string.IsNullOrEmpty(listValues))
+                    {
                         throw new Exception("Введеная строка не содержит символов");
                     }
 
                     var splitListValues = listValues.Split(" ");
                     List<int> values = new List<int>();
-                    foreach (var value in splitListValues) {
-                        if (!int.TryParse(value, out var intValue)) {
+                    foreach (var value in splitListValues)
+                    {
+                        if (!int.TryParse(value, out var intValue))
+                        {
                             throw new Exception($"Введеное значение {value} не является числом");
                         }
 
@@ -46,28 +57,35 @@ namespace Lab_4_array_sort_visualisation.menu.menus {
 
                     return values;
                 }
-                catch (Exception e) {
+                catch (Exception e)
+                {
                     Console.WriteLine(e.Message);
                 }
             }
         }
 
-        private int InputDelayValue() {
-            while (true) {
+        private int InputDelayValue()
+        {
+            while (true)
+            {
                 Console.WriteLine("Введите задержку: ");
-                try {
+                try
+                {
                     var delayValue = Console.ReadLine();
-                    if (string.IsNullOrEmpty(delayValue)) {
+                    if (string.IsNullOrEmpty(delayValue))
+                    {
                         throw new Exception("Введеная строка не содержит символов");
                     }
 
-                    if (!int.TryParse(delayValue, out var intDelayValue)) {
+                    if (!int.TryParse(delayValue, out var intDelayValue))
+                    {
                         throw new Exception($"Введеное значение {delayValue} не является числом");
                     }
 
                     return intDelayValue;
                 }
-                catch (Exception e) {
+                catch (Exception e)
+                {
                     Console.WriteLine(e.Message);
                 }
             }

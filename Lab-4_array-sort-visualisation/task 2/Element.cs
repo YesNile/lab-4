@@ -1,15 +1,17 @@
 ﻿using System;
-using Lab_4_array_sort_visualisation.task_2;
 
-namespace lab4 {
-
-    internal readonly struct Element : IComparable {
+namespace Lab_4_array_sort_visualisation.task_2
+{
+    internal readonly struct Element : IComparable
+    {
         public object Value { get; }
         private TableWorker.ColumnType Type { get; }
 
-        public Element(string value, TableWorker.ColumnType type) {
+        public Element(string value, TableWorker.ColumnType type)
+        {
             Type = type;
-            switch (type) {
+            switch (type)
+            {
                 case TableWorker.ColumnType.Integer:
                     Value = int.Parse(value);
                     break;
@@ -21,7 +23,8 @@ namespace lab4 {
             }
         }
 
-        public int CompareTo(object? obj) {
+        public int CompareTo(object? obj)
+        {
             if (obj is not Element otherElement) throw new Exception("Нельзя сравнить с другими типами");
             if (Type != otherElement.Type)
                 throw new Exception("Попытка сравнить элементы, хрaнящие разные типы данных");

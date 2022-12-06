@@ -3,31 +3,39 @@ using System.Collections.Generic;
 using System.Linq;
 using Lab_4_array_sort_visualisation.menu.utils;
 
-namespace Lab_4_array_sort_visualisation.menu {
-    public abstract class Menu : MenuItem {
+namespace Lab_4_array_sort_visualisation.menu
+{
+    public abstract class Menu : MenuItem
+    {
         protected List<MenuItem> Items;
 
-        protected Menu(string title, List<MenuItem> items = null, bool isSelected = false) : base(title, isSelected) {
+        protected Menu(string title, List<MenuItem> items = null, bool isSelected = false) : base(title, isSelected)
+        {
             items ??= new List<MenuItem>();
             items.Add(new ExitMenuItem());
-            if (!items.Any(x => x.IsSelected)) {
+            if (!items.Any(x => x.IsSelected))
+            {
                 items.First().IsSelected = true;
             }
 
             Items = items;
         }
 
-        public override void Execute() {
+        public override void Execute()
+        {
             Start();
         }
 
-        public void Start() {
+        public void Start()
+        {
             Console.CursorVisible = false;
             bool canExit = false;
-            do {
+            do
+            {
                 DrawMenu();
                 ConsoleKeyInfo inputKey = Console.ReadKey(true);
-                switch (inputKey.Key) {
+                switch (inputKey.Key)
+                {
                     case ConsoleKey.DownArrow:
                         MenuNext();
                         break;
@@ -36,10 +44,12 @@ namespace Lab_4_array_sort_visualisation.menu {
                         break;
                     case ConsoleKey.Enter:
                         MenuItem item = Items.First(item => item.IsSelected);
-                        if (item.Equals(Items.Last())) {
+                        if (item.Equals(Items.Last()))
+                        {
                             canExit = true;
                         }
-                        else {
+                        else
+                        {
                             item.Execute();
                         }
 
@@ -48,7 +58,8 @@ namespace Lab_4_array_sort_visualisation.menu {
             } while (!canExit);
         }
 
-        private void MenuPrev() {
+        private void MenuPrev()
+        {
             ConsoleUtil.ClearScreen();
             MenuItem select = Items.First(item => item.IsSelected);
             int selectindex = Items.IndexOf(select);
@@ -59,7 +70,8 @@ namespace Lab_4_array_sort_visualisation.menu {
             Items[selectindex].IsSelected = true;
         }
 
-        private void MenuNext() {
+        private void MenuNext()
+        {
             ConsoleUtil.ClearScreen();
             MenuItem select = Items.First(item => item.IsSelected);
             int selectIndex = Items.IndexOf(select);
@@ -70,9 +82,11 @@ namespace Lab_4_array_sort_visualisation.menu {
             Items[selectIndex].IsSelected = true;
         }
 
-        private void DrawMenu() {
+        private void DrawMenu()
+        {
             ConsoleUtil.ClearScreen();
-            foreach (var item in Items) {
+            foreach (var item in Items)
+            {
                 Console.BackgroundColor = item.IsSelected
                     ? ConsoleColor.DarkCyan
                     : ConsoleColor.Black;

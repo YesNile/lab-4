@@ -3,11 +3,11 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using Lab_4_array_sort_visualisation.menu.utils;
 
-namespace Lab_4_array_sort_visualisation.menu.menus {
-    public class ABCSortMenu : MenuItem {
-        public ABCSortMenu(bool isSelected = false) : base(title: "ABC Сортировка текста", isSelected)
-        {
-        }
+namespace Lab_4_array_sort_visualisation.menu.menus
+{
+    public class ABCSortMenu : MenuItem
+    {
+        public ABCSortMenu(bool isSelected = false) : base(title: "ABC Сортировка текста", isSelected) { }
 
         public override void Execute()
         {
@@ -16,7 +16,7 @@ namespace Lab_4_array_sort_visualisation.menu.menus {
                 ConsoleUtil.ClearScreen();
                 Console.WriteLine($"[ {Title.ToUpper()} ]\n");
                 Console.CursorVisible = true;
-                
+
                 Console.WriteLine("Введите текст, слова которого должны быть отсортированы: ");
                 string inputText = Console.ReadLine();
                 if (string.IsNullOrEmpty(inputText))
@@ -30,7 +30,8 @@ namespace Lab_4_array_sort_visualisation.menu.menus {
                 }
                 else
                 {
-                    var inputListWord = inputText.Trim().Split(new []{' ', ',', '.', '(', ')'}).Where(x => x != "").ToList();
+                    var inputListWord = inputText.Trim().Split(new[] {' ', ',', '.', '(', ')'}).Where(x => x != "")
+                        .ToList();
                     var result = algorithms.ABCSort.Sort(inputListWord).ToList();
                     for (int i = 0; i < result.Count; i++)
                     {
@@ -44,7 +45,7 @@ namespace Lab_4_array_sort_visualisation.menu.menus {
                         Console.WriteLine($"{word.Key} [ {word.Value} ]");
                     }
                 }
-                
+
                 Console.CursorVisible = false;
             } while (ConsoleUtil.Continue());
         }
