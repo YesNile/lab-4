@@ -3,18 +3,21 @@ using System.Collections.Generic;
 using System.IO;
 using AlgorhythmsLab3.Tester;
 using AlgorythmsLab3.Testing.Tester;
-using Lab_4_array_sort_visualisation.algorithms;
 using Lab_4_array_sort_visualisation.menu;
 using Lab_4_array_sort_visualisation.menu.menus;
 
-namespace Lab_4_array_sort_visualisation {
-    class Program {
-        static void Main(string[] args) {
-            Menu menu = new MainMenu();                  //Запуск меню с работой в программе
+namespace Lab_4_array_sort_visualisation
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Menu menu = new MainMenu(); //Запуск меню с работой в программе
             menu.Start();
-           // TestTextSort(x=>ABCSort.Sort(x),"ABCSort",1);             //тест ABCSort слов
+            // TestTextSort(x=>ABCSort.Sort(x),"ABCSort",1);             //тест ABCSort слов
             //TestTextSort(x=>ShakerSort.Sort(x),"ShakerSort",1);                 //тест ShakerSort слов
         }
+
         private static void TestTextSort(Func<List<string>, ICollection<string>> func, string name, int iterCount)
         {
             var tester = new TimeTester();
@@ -23,7 +26,7 @@ namespace Lab_4_array_sort_visualisation {
             for (int i = 1; i <= 10_000; i += 1)
             {
                 var testText = CopyTo(allText, i);
-                
+
                 Console.WriteLine($"Тест алгоритма: {name} | Итерация: {i}");
                 tester.Test(() => func.Invoke(testText), iterCount, name);
                 tester2.Test(() => func.Invoke(testText), iterCount, name);

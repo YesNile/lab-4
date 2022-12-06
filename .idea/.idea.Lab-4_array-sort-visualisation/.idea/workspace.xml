@@ -6,44 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddc6578c-a7fa-4001-8089-c24c2a59f15e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/menus/DirectMergeSortMenu.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/menus/MergeSort.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/menus/MultiPathMergeSortMenu.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/menus/NaturalMergeSortMenu.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/menus/SecondTaskMenu.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab-4_array-sort-visualisation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab-4_array-sort-visualisation/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/algorithms/ABCSort.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/algorithms/ABCSort.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/algorithms/Algorithm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/algorithms/Algorithm.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/algorithms/BubbleSort.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/algorithms/BubbleSort.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/algorithms/CocktailSort.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/algorithms/CocktailSort.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/algorithms/QuickSort.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/algorithms/QuickSort.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/algorithms/ShakerSort.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/algorithms/ShakerSort.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/bin/Debug/net5.0/Lab-4_array-sort-visualisation.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/bin/Debug/net5.0/Lab-4_array-sort-visualisation.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/bin/Debug/net5.0/Lab-4_array-sort-visualisation.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/bin/Debug/net5.0/Lab-4_array-sort-visualisation.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/bin/Debug/net5.0/ref/Lab-4_array-sort-visualisation.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/bin/Debug/net5.0/ref/Lab-4_array-sort-visualisation.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/files/countries.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/files/countries.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/ExitMenuItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/ExitMenuItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/Menu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/MenuItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/MenuItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/menus/ABCSortMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/menus/ABCSortMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/menus/AlgorithmMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/menus/AlgorithmMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/menus/BubbleSortMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/menus/BubbleSortMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/menus/CocktailSortMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/menus/CocktailSortMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/menus/MainMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/menus/MainMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/menus/NumSortMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/menus/NumSortMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/menus/QuickSortMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/menus/QuickSortMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/menus/ShakerSortMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/menus/ShakerSortMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/menus/StringSortMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/menus/StringSortMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/Debug/net5.0/Lab-4_array-sort-visualisation.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/Debug/net5.0/Lab-4_array-sort-visualisation.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/Debug/net5.0/Lab-4_array-sort-visualisation.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/Debug/net5.0/Lab-4_array-sort-visualisation.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/Debug/net5.0/Lab-4_array-sort-visualisation.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/Debug/net5.0/Lab-4_array-sort-visualisation.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/Debug/net5.0/ref/Lab-4_array-sort-visualisation.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/obj/Debug/net5.0/ref/Lab-4_array-sort-visualisation.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/task 2/Condition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/task 2/Condition.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/task 2/Element.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/task 2/Element.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/task 2/SortType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/task 2/SortType.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/task 2/TableWorker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/task 2/TableWorker.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/utils/Logger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Lab-4_array-sort-visualisation/utils/Logger.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +96,7 @@
       <workItem from="1669733723130" duration="14361000" />
       <workItem from="1670261729923" duration="4872000" />
       <workItem from="1670269371400" duration="3011000" />
-      <workItem from="1670345603863" duration="4662000" />
+      <workItem from="1670345603863" duration="5927000" />
     </task>
     <servers />
   </component>
@@ -163,26 +126,13 @@
           <line>91</line>
           <properties documentPath="D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\menu\menus\MergeSort.cs" initialLine="91" containingFunctionPresentation="method 'CheckColumnExist'">
             <startOffsets>
-              <option value="3676" />
+              <option value="3692" />
             </startOffsets>
             <endOffsets>
-              <option value="3703" />
+              <option value="3719" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Lab-4_array-sort-visualisation/menu/menus/MergeSort.cs</url>
-          <line>41</line>
-          <properties documentPath="D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\menu\menus\MergeSort.cs" initialLine="41" containingFunctionPresentation="method 'Execute'">
-            <startOffsets>
-              <option value="1522" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1606" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -2,8 +2,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab-4_array-sort-visualisation", "Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation.csproj", "{AE0099B5-4837-459D-AED2-40717CE2094C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task-2", "Task-2\Task-2.csproj", "{2CBC4F11-8C62-46BF-9D21-464477BF8EB6}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,9 +12,5 @@ Global
 		{AE0099B5-4837-459D-AED2-40717CE2094C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE0099B5-4837-459D-AED2-40717CE2094C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE0099B5-4837-459D-AED2-40717CE2094C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2CBC4F11-8C62-46BF-9D21-464477BF8EB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2CBC4F11-8C62-46BF-9D21-464477BF8EB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2CBC4F11-8C62-46BF-9D21-464477BF8EB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2CBC4F11-8C62-46BF-9D21-464477BF8EB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
