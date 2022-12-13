@@ -18,7 +18,7 @@ namespace Lab_4_array_sort_visualisation.algorithms
                     if (CompareString(words[j].ToLower(), words[j + 1].ToLower()))
                     {
                         Thread.Sleep(SortDelay);
-                        Console.WriteLine($"\tСмена слов {words[j + 1]} и {words[j]} местами\n");
+                        Console.WriteLine($"\tМеняем {words[j + 1]} и {words[j]} местами\n");
                         (words[j], words[j + 1]) = (words[j + 1], words[j]);
                         swapFlag = true;
                     }
@@ -30,7 +30,7 @@ namespace Lab_4_array_sort_visualisation.algorithms
                     if (CompareString(words[j - 1].ToLower(), words[j].ToLower()))
                     {
                         Thread.Sleep(SortDelay);
-                        Console.WriteLine($"\tСмена слов {words[j - 1]} и {words[j]} местами\n");
+                        Console.WriteLine($"\tМеняем {words[j - 1]} и {words[j]} местами\n");
                         (words[j - 1], words[j]) = (words[j], words[j - 1]);
                         swapFlag = true;
                     }
@@ -47,7 +47,7 @@ namespace Lab_4_array_sort_visualisation.algorithms
 
         private bool CompareString(string s1, string s2)
         {
-            Console.WriteLine($"Сравнение слов {s1} и {s2}");
+            Console.WriteLine($"Сравниваем слова {s1} и {s2}");
             var min = Math.Min(s1.Length, s2.Length);
             for (int i = 0; i < min; i++)
             {

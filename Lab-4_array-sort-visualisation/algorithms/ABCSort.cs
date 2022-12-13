@@ -10,12 +10,12 @@ namespace Lab_4_array_sort_visualisation.algorithms
         {
             if (words.Count > 1)
             {
-                Console.WriteLine($"Сравнение слов по символу на позиции {rank}\n");
+                Console.WriteLine($"Сравниваем слова по символу с индексом {rank}\n");
                 Thread.Sleep(SortDelay);
                 Dictionary<char, List<string>> squares = new Dictionary<char, List<string>> {{'@', new List<string>()}};
                 foreach (var word in words)
                 {
-                    Console.WriteLine($"Сравнение позиции {rank} и длину слова {word}");
+                    Console.WriteLine($"Сравниваем индекс {rank} и длину слова {word}");
                     Thread.Sleep(SortDelay);
                     if (rank < word.Length)
                     {
@@ -28,12 +28,12 @@ namespace Lab_4_array_sort_visualisation.algorithms
                             squares.Add(word[rank], new List<string>() {word});
                         }
 
-                        Console.WriteLine($"\tДобавление слова \"{word}\" в группу [ {word[rank]} ]\n");
+                        Console.WriteLine($"\tДобавляем слова \"{word}\" в группу [ {word[rank]} ]\n");
                         Thread.Sleep(SortDelay);
                     }
                     else
                     {
-                        Console.WriteLine($"Добавление слова \"{word}\" в дефолтную группу [ @ ]\n");
+                        Console.WriteLine($"Добавляем слова \"{word}\" в дефолтную группу [ @ ]\n");
                         Thread.Sleep(SortDelay);
                         squares['@'].Add(word);
                     }
@@ -42,7 +42,7 @@ namespace Lab_4_array_sort_visualisation.algorithms
                 if (squares['@'].Count == words.Count)
                 {
                     Console.WriteLine(
-                        $"Прошли все символы всех слов, поэтому добавляем отсортированные значение в результирующий список\n");
+                        $"Мы отсортировали все символы слов, теперь выводим итоговый список \n");
                     Thread.Sleep(SortDelay);
                     return words;
                 }
