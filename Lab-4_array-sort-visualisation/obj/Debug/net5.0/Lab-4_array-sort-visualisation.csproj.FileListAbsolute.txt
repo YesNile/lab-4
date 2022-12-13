@@ -53,3 +53,26 @@ D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\bin\Debug
 D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
 D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll
 D:\Users\Данил\RiderProjects\lab-4\Lab-4_array-sort-visualisation\obj\Debug\net5.0\Lab-4_array-sort-visualisation.csproj.CopyComplete
+D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\bin\Debug\net5.0\EPPlus.dll
+D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\bin\Debug\net5.0\EPPlus.Interfaces.dll
+D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\bin\Debug\net5.0\EPPlus.System.Drawing.dll
+D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\bin\Debug\net5.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Json.dll
+D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Physical.dll
+D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\bin\Debug\net5.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\bin\Debug\net5.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\bin\Debug\net5.0\Microsoft.Win32.SystemEvents.dll
+D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\bin\Debug\net5.0\OfficeOpenXml.Core.ExcelPackage.dll
+D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\bin\Debug\net5.0\OfficeOpenXml.Extends.dll
+D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\bin\Debug\net5.0\System.Drawing.Common.dll
+D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\bin\Debug\net5.0\System.IO.Packaging.dll
+D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\bin\Debug\net5.0\System.Security.Cryptography.Pkcs.dll
+D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll
+D:\folder for trash code\algorithm labs\Lab-4_array-sort-visualisation\Lab-4_array-sort-visualisation\obj\Debug\net5.0\Lab-4_array-sort-visualisation.csproj.CopyComplete
