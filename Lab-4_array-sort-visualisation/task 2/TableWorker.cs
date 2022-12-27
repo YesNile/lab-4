@@ -20,9 +20,11 @@ namespace Lab_4_array_sort_visualisation.task_2
         private int RowCount { get; set; }
         public readonly string[] Attributes;
         private readonly ColumnType[] _types;
+        private readonly int _delayTime;
 
-        public TableWorker(string path)
+        public TableWorker(string path, int delayTime)
         {
+            _delayTime = delayTime;
             _filePath = path;
             if (File.Exists(path))
             {
@@ -107,8 +109,7 @@ namespace Lab_4_array_sort_visualisation.task_2
             }
         }
 
-        public void GetSortedTable(string outputPath, bool ascending, string attribute, SortType sortType,
-            int time)
+        public void GetSortedTable(string outputPath, bool ascending, string attribute, SortType sortType)
         {
             int attributeNum = -1;
             for (int i = 0; i < _columnCount; i++)
@@ -123,39 +124,44 @@ namespace Lab_4_array_sort_visualisation.task_2
             switch (sortType)
             {
                 case SortType.Direct:
-                    DirectSort(outputPath, ascending, attributeNum, 0, time);
+                    DirectSort(outputPath, ascending, attributeNum, 0);
                     break;
                 case SortType.Natural:
-                    NaturalSort(outputPath, attributeNum, ascending, time);
+                    NaturalSort(outputPath, attributeNum, ascending);
                     break;
                 case SortType.Multipath:
-                    MultiPathSort(outputPath, attributeNum, ascending, time);
+                    MultiPathSort(outputPath, attributeNum, ascending);
                     break;
                 default:
                     throw new Exception("Нереализованный тип сортировки");
             }
         }
 
-        private void MultiPathSort(string outputPath, int attributeNum, bool ascending,
-            int time)
+        private void MultiPathSort(string outputPath, int attributeNum, bool ascending)
         {
             string directoryPath = "temp";
 
-            SplitIntoTablesNaturally(directoryPath, attributeNum, ascending, time);
-            MergeSortedTables(outputPath, Directory.GetFiles(directoryPath).ToList(), attributeNum, ascending, time);
+            Console.WriteLine("[ Многопутевая сортировка ]");
+
+            SplitIntoTablesNaturally(directoryPath, attributeNum, ascending);
+            MergeSortedTables(outputPath, Directory.GetFiles(directoryPath).ToList(), attributeNum, ascending);
         }
 
-        private void DirectSort(string outputPath, bool ascending, int attributeNum, int depth, int time)
+        private void DirectSort(string outputPath, bool ascending, int attributeNum, int depth)
         {
+            Console.WriteLine("[ Прямая сортировка ]");
+            
             DirOperation();
-            SubSortDirectly(outputPath, ascending, attributeNum, 0, time);
+            SubSortDirectly(outputPath, ascending, attributeNum, 0);
         }
 
-        private void NaturalSort(string outputPath, int attributeNum, bool ascending, int time)
+        private void NaturalSort(string outputPath, int attributeNum, bool ascending)
         {
             string directoryPath = "temp";
+            
+            Console.WriteLine("[ Натуральная сортировка ]");
 
-            SplitIntoTablesNaturally(directoryPath, attributeNum, ascending, time);
+            SplitIntoTablesNaturally(directoryPath, attributeNum, ascending);
 
             string newDirectoryPath = directoryPath;
             int j = 0;
@@ -168,14 +174,14 @@ namespace Lab_4_array_sort_visualisation.task_2
                 for (int i = 1; i < files.Length; i += 2)
                 {
                     MergeSortedTables(newDirectoryPath + @"\temp_" + i / 2 + ".txt",
-                        new() {files[i - 1], files[i]}, attributeNum, ascending, time);
+                        new() {files[i - 1], files[i]}, attributeNum, ascending);
                 }
 
                 if (files.Length % 2 == 1)
                 {
                     Console.WriteLine("Оставшийся файл не с чем слить, копируем его");
                     File.Copy(files[^1], newDirectoryPath + @"\temp_" + files.Length / 2 + ".txt");
-                    Thread.Sleep(time);
+                    Thread.Sleep(_delayTime);
                 }
 
                 j++;
@@ -184,23 +190,28 @@ namespace Lab_4_array_sort_visualisation.task_2
             File.Copy(Directory.GetFiles(newDirectoryPath)[0], outputPath, true);
         }
 
-        private void SubSortDirectly(string outputPath, bool ascending, int columnNum, int depth, int time)
+        private void SubSortDirectly(string outputPath, bool ascending, int columnNum, int depth)
         {
             if (RowCount > 1)
             {
+                Console.WriteLine($"В файле {outputPath} еще есть данные");
+                Console.WriteLine();
+                Thread.Sleep(_delayTime);
+                
                 string path1 = @"temp\temp_" + depth + "_1" + ".txt";
                 string path2 = @"temp\temp_" + depth + "_2" + ".txt";
                 Console.WriteLine($"Создаем 2 файла:{path1} и {path2}");
+                Thread.Sleep(_delayTime);
                 Console.WriteLine("Заполняем файлы делением корневого файла");
                 SplitIntoTwoTableDirectly(path1, path2);
                 PrintFile(path1);
                 PrintFile(path2);
-                Thread.Sleep(time);
-                TableWorker table1 = new TableWorker(path1);
-                TableWorker table2 = new TableWorker(path2);
-                table1.SubSortDirectly(path1, ascending, columnNum, depth + 1, time);
-                table2.SubSortDirectly(path2, ascending, columnNum, depth + 1, time);
-                MergeSortedTables(outputPath, new List<string>() {path1, path2}, columnNum, ascending, time);
+                Thread.Sleep(_delayTime);
+                TableWorker table1 = new TableWorker(path1, _delayTime);
+                TableWorker table2 = new TableWorker(path2, _delayTime);
+                table1.SubSortDirectly(path1, ascending, columnNum, depth + 1);
+                table2.SubSortDirectly(path2, ascending, columnNum, depth + 1);
+                MergeSortedTables(outputPath, new List<string>() {path1, path2}, columnNum, ascending);
                 PrintFile(outputPath);
             }
         }
@@ -209,7 +220,7 @@ namespace Lab_4_array_sort_visualisation.task_2
         {
             Console.WriteLine();
 
-            Console.WriteLine($"[ {path} ]");
+            Console.WriteLine($"[ Содержимое файла {path} ]");
             foreach (var line in File.ReadAllLines(path))
             {
                 Console.WriteLine(line);
@@ -220,6 +231,9 @@ namespace Lab_4_array_sort_visualisation.task_2
 
         private void SplitIntoTwoTableDirectly(string outputPath1, string outputPath2)
         {
+            Console.WriteLine($"Разбиваем информацию на два файла");
+            Console.WriteLine();
+            Thread.Sleep(_delayTime);
             if (!File.Exists(outputPath1))
             {
                 File.Delete(outputPath1);
@@ -237,19 +251,25 @@ namespace Lab_4_array_sort_visualisation.task_2
             using StreamWriter file2 = new StreamWriter(outputPath2);
             using StreamReader originFile = new StreamReader(_filePath);
 
-            string att = originFile.ReadLine();
-            file1.WriteLine(att);
-            file2.WriteLine(att);
+            string header = originFile.ReadLine();
+            file1.WriteLine(header);
+            file2.WriteLine(header);
             int j = 0;
             while (!originFile.EndOfStream)
             {
                 if (j % 2 == 0)
                 {
-                    file1.WriteLine(originFile.ReadLine());
+                    var data = originFile.ReadLine();
+                    Console.WriteLine($"Записываем в первый файл {data}");
+                    Thread.Sleep(_delayTime);
+                    file1.WriteLine(data);
                 }
                 else
                 {
-                    file2.WriteLine(originFile.ReadLine());
+                    var data = originFile.ReadLine();
+                    Console.WriteLine($"Записываем во второй файл {data}");
+                    Thread.Sleep(_delayTime);
+                    file2.WriteLine(data);
                 }
 
                 j++;
@@ -259,8 +279,7 @@ namespace Lab_4_array_sort_visualisation.task_2
             table2.RowCount = RowCount / 2;
         }
 
-        private void SplitIntoTablesNaturally(string outputDirectoryPath, int checkedColumnNum, bool ascending,
-            int time)
+        private void SplitIntoTablesNaturally(string outputDirectoryPath, int checkedColumnNum, bool ascending)
         {
             int dir = ascending ? 1 : -1;
             List<TableWorker> tables = new List<TableWorker>();
@@ -280,7 +299,7 @@ namespace Lab_4_array_sort_visualisation.task_2
             {
                 string path = outputDirectoryPath + @"\temp_" + j + ".txt";
                 Console.WriteLine($"Создаем файл {path} и вставляем в него идущие подряд отсортированные элементы");
-                Thread.Sleep(time);
+                Thread.Sleep(_delayTime);
                 tables.Add(new TableWorker(path, this));
                 using (var currentFile = new StreamWriter(path))
                 {
@@ -323,22 +342,22 @@ namespace Lab_4_array_sort_visualisation.task_2
             }
         }
 
-        private void MergeSortedTables(string outputPath, List<string> inputPath, int columnNum, bool ascending,
-            int time)
+        private void MergeSortedTables(string outputPath, List<string> inputPath, int columnNum, bool ascending)
         {
             Console.WriteLine("Сливаем файлы:");
-            foreach (var t in inputPath)
+            foreach (var data in inputPath)
             {
-                Console.WriteLine(t);
+                Console.WriteLine(data);
             }
 
             Console.WriteLine($"В файл {outputPath}");
-            Thread.Sleep(time);
+            Thread.Sleep(_delayTime);
+            
             int dir = ascending ? 1 : -1;
             TableWorker[] tables = new TableWorker[inputPath.Count];
             for (int i = 0; i < tables.Length; i++)
             {
-                tables[i] = new TableWorker(inputPath[i]);
+                tables[i] = new TableWorker(inputPath[i], _delayTime);
             }
 
             StreamReader[] files = new StreamReader[inputPath.Count];
@@ -405,7 +424,7 @@ namespace Lab_4_array_sort_visualisation.task_2
 
         int GetMinOrMaxElementNum(Element[][] element, List<string> inputPath, int columnNum, int dir)
         {
-            Element[] currentLine = null!;
+            Element[] currentLine = null;
             int output = -1;
             for (int i = 0; i < inputPath.Count; i++)
             {
@@ -423,7 +442,9 @@ namespace Lab_4_array_sort_visualisation.task_2
         public void GetFilteredTable(TableWorker table, string outputPath, Condition condition)
         {
             if (File.Exists(outputPath))
+            {
                 File.Delete(outputPath);
+            }
 
             using StreamWriter outputFile = new StreamWriter(outputPath);
             using StreamReader inputFile = new StreamReader(table._filePath);

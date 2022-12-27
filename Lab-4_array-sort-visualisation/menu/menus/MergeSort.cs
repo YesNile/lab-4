@@ -61,8 +61,8 @@ namespace Lab_4_array_sort_visualisation.menu.menus
                         throw new Exception("Введнная строка пуста или содержит недопустимое значение");
                     }
 
-                    TableWorker worker = new TableWorker(nameFile);
-                    worker.GetSortedTable(outputPath: $"{nameFile}_sorted.csv", ascending: ascending, time: time,
+                    TableWorker worker = new TableWorker(nameFile, time);
+                    worker.GetSortedTable(outputPath: $"{nameFile}_sorted.csv", ascending: ascending,
                         attribute: attributeName, sortType: _sortType);
                 }
                 catch (Exception e)
