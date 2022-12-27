@@ -5048,28 +5048,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\20min\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet": {}
+    "C:\\Users\\Данил\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\folder for trash code\\algorithm labs\\Lab-4_array-sort-visualisation\\Lab-4_array-sort-visualisation\\Lab-4_array-sort-visualisation.csproj",
+      "projectUniqueName": "D:\\Users\\Данил\\RiderProjects\\lab-4\\Lab-4_array-sort-visualisation\\Lab-4_array-sort-visualisation.csproj",
       "projectName": "Lab-4_array-sort-visualisation",
-      "projectPath": "D:\\folder for trash code\\algorithm labs\\Lab-4_array-sort-visualisation\\Lab-4_array-sort-visualisation\\Lab-4_array-sort-visualisation.csproj",
-      "packagesPath": "C:\\Users\\20min\\.nuget\\packages\\",
-      "outputPath": "D:\\folder for trash code\\algorithm labs\\Lab-4_array-sort-visualisation\\Lab-4_array-sort-visualisation\\obj\\",
+      "projectPath": "D:\\Users\\Данил\\RiderProjects\\lab-4\\Lab-4_array-sort-visualisation\\Lab-4_array-sort-visualisation.csproj",
+      "packagesPath": "C:\\Users\\Данил\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\Данил\\RiderProjects\\lab-4\\Lab-4_array-sort-visualisation\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
-      ],
       "configFilePaths": [
-        "C:\\Users\\20min\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Данил\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -5117,12 +5109,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.15, 5.0.15]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   },
