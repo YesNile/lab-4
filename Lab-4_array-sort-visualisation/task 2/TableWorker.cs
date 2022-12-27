@@ -309,6 +309,8 @@ namespace Lab_4_array_sort_visualisation.task_2
 
                     while (true)
                     {
+                        Console.WriteLine($"Запись [ {pastLine} ] в файл {path}");
+                        Thread.Sleep(_delayTime);
                         currentFile.WriteLine(pastLine);
                         rowCount++;
 
@@ -397,6 +399,8 @@ namespace Lab_4_array_sort_visualisation.task_2
 
                     if (j != -1)
                     {
+                        Console.WriteLine($"Запись [ {lines[j]} ] в файл {outputPath}");
+                        Thread.Sleep(_delayTime);
                         outputFile.WriteLine(lines[j]);
                         if (!files[j].EndOfStream)
                         {
